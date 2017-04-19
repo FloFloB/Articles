@@ -1,0 +1,24 @@
+# Résumé de l'article:
+Lifelong-RL: Lifelong Relaxation Labeling for Separating Entities and Aspects in Opinion Targets
+
+
+# Source Bibtex
+
+@inproceedings{DBLP:conf/emnlp/ShuLXK16,
+  author    = {Lei Shu and
+               Bing Liu and
+               Hu Xu and
+               Annice Kim},
+  title     = {Lifelong-RL: Lifelong Relaxation Labeling for Separating Entities
+               and Aspects in Opinion Targets},
+  booktitle = {Proceedings of the 2016 Conference on Empirical Methods in Natural
+               Language Processing, {EMNLP} 2016, Austin, Texas, USA, November 1-4,
+               2016},
+  pages     = {225--235},
+  year      = {2016},
+  crossref  = {DBLP:conf/emnlp/2016},
+  url       = {http://aclweb.org/anthology/D/D16/D16-1022.pdf},
+  timestamp = {Fri, 04 Nov 2016 14:45:31 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/emnlp/ShuLXK16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
