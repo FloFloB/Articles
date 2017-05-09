@@ -1,4 +1,21 @@
-# Résumé de l'article : A Very Short Introduction to CCG
+# Résumé de l'article : 
+A Very Short Introduction to CCG
+
+In Combinatory Categorial Grammar (CCG), elements like verbs are associated with a syntactic "category" which identifies them as functions 
+and specifies the type and directionality of their arguments ad the type of their result.
+
+We here use the "result leftmost" notation in which a rightward combining functor over a domain β into a range α are written α/β,
+while the corresponding leftwardcombining functor is written α/β.α and β may themselves be function categories. For
+example, a transitive verb is a function from (object) NPs into predicates—that is, into
+functions from (subject) NPs into S:
+(1) likes := (S\NP)/NP
+(2) Forward Application: (>)
+X=Y Y => X
+(3) Backward Application: (<)
+Y X \Y => X
+
+The principle of Combinatory Transparency: The semantic interpretatio of the category resulting from a Combinatory rule is uniquely 
+determined by the interpolation of the slash in a category as a mapping between two sets
 
 
 # Source Bibtex
