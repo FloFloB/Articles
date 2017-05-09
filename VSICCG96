@@ -1,0 +1,12 @@
+# Résumé de l'article : A Very Short Introduction to CCG
+
+
+# Source Bibtex
+
+@article{VSICCG96,
+  author    = {Mark Steedman},
+  title     = {A Very Short Introduction to CCG},
+  year      = {1996},
+  url       = {https://www.inf.ed.ac.uk/teaching/courses/nlg/readings/ccgintro.pdf},
+  timestamp = {01 Nov 1996 14:45:31 +0100},
+}
