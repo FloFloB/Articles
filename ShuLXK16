@@ -1,6 +1,21 @@
 # Résumé de l'article:
 Lifelong-RL: Lifelong Relaxation Labeling for Separating Entities and Aspects in Opinion Targets
 
+Problem statement: Given a set of opinion targets T={t1, ..., tn} extracted from an opinion corpus d, we want toclassify each target
+                   ti in T into one of the three classes, entity, aspect, or NIL,which are called class labels. NIL means that the target
+                   neither an entity nor an aspect and is used because target extraction algorithms can make mistakes.
+
+We employ the graph labelling algorithm, Relaxations Labeling (RL) which performs unsupervised belief propagation on a graph. In our case,
+each target extracted from the given corpus d forms a graph node and each relation identified in d between two targets forms an edge.
+We employ Lifelong Machine Learning (LML), to make a major improvement in isolation that just using a propagation method.
+
+LML works as follows, the learner has performed a number learning tasks in the past and has retained the knowledge gained so far. In the 
+new/current task, it makes use of the past knowledge to help current learning and problem solving. Since RL is unsupervised, we can assume
+that the system has performed the same task on reviews of a large number of products/ domains. It has also saved all the graphs and 
+classification results from these past domains in a Knowledge Bases (KB). It then exploits this past knowledge to help classification in 
+the current task/domain.
+We call this combined approach of Relaxation Labeling and Lifelong Machine Learning, Lifelong-Relaxation Labeling 
+
 
 # Source Bibtex
 
